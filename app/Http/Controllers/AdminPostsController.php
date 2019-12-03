@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use App\Http\Requests\PostRequest;
+
 class AdminPostsController extends Controller
 {
     public function index()
